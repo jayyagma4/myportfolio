@@ -6,16 +6,16 @@
     <meta name="color-scheme" content="light dark" />
     <meta
       name="description"
-      content="Jay G. Yagma is a backend and full-stack developer in Misamis Oriental, Philippines specializing in Node.js, PostgreSQL, REST APIs, OAuth/JWT authentication, and Stripe integration."
+      content="Jay G. Yagma — Full-Stack Developer specializing in Laravel, Next.js, Node.js, Supabase, and AI-assisted development workflows. Based in Misamis Oriental, Philippines."
     />
     <meta name="robots" content="index,follow" />
 
-    <title>Jay G. Yagma | Backend & Full-Stack Developer</title>
+    <title>Jay G. Yagma — Full-Stack Developer · Volume 01</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
       rel="stylesheet"
     />
 
@@ -37,18 +37,19 @@
 
         <nav class="site-nav" id="site-nav" aria-label="Primary" data-nav>
           <a class="nav-link" href="#about">About</a>
-          <a class="nav-link" href="#projects">Projects</a>
+          <a class="nav-link" href="#projects">Work</a>
           <a class="nav-link" href="#experience">Education</a>
           <a class="nav-link" href="#skills">Skills</a>
+          <a class="nav-link" href="#philosophy">Philosophy</a>
           <a class="nav-link" href="#contact">Contact</a>
         </nav>
 
         <div class="header-actions">
           <a
-            class="btn btn-secondary header-resume"
+            class="header-resume"
             href="YAGMA-%20RESUME.pdf"
             download="Jay-G-Yagma-Resume.pdf"
-            >Download Resume</a>
+            >Resume</a>
           <button
             class="icon-button"
             type="button"
@@ -56,20 +57,13 @@
             aria-label="Toggle dark mode"
           >
             <svg
-              class="icon"
-              width="20"
-              height="20"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              aria-hidden="true"
+              width="18" height="18" viewBox="0 0 24 24" fill="none"
+              xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
             >
               <path
                 d="M21.75 15.5a9 9 0 1 1-13.25-12 7.5 7.5 0 1 0 13.25 12Z"
-                stroke="currentColor"
-                stroke-width="1.8"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                stroke="currentColor" stroke-width="1.6"
+                stroke-linecap="round" stroke-linejoin="round"
               />
             </svg>
           </button>
@@ -83,20 +77,13 @@
             aria-label="Open menu"
           >
             <svg
-              class="icon"
-              width="20"
-              height="20"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              aria-hidden="true"
+              width="18" height="18" viewBox="0 0 24 24" fill="none"
+              xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
             >
               <path
                 d="M4 6h16M4 12h16M4 18h16"
-                stroke="currentColor"
-                stroke-width="1.8"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                stroke="currentColor" stroke-width="1.6"
+                stroke-linecap="round" stroke-linejoin="round"
               />
             </svg>
           </button>
@@ -105,611 +92,498 @@
     </header>
 
     <main id="main">
-      <section class="section hero" id="home">
-        <div class="container hero-grid">
-          <div class="hero-copy">
-            <p class="eyebrow">Jay G. Yagma · San Isidro, Jasaan, Misamis Oriental, Philippines</p>
-            <h1 class="hero-title">Backend & Full-Stack Developer</h1>
-            <p class="hero-subtitle">
-              I’m Jay G. Yagma, a backend and full-stack developer passionate about building
-              reliable systems that scale safely in production. I work with Node.js,
-              PostgreSQL, REST API design, OAuth/JWT authentication, and Stripe
-              integration—combining a methodical, risk-aware approach with clear
-              communication and accountability.
-            </p>
 
-            <div class="hero-cta">
-              <a class="btn btn-primary" href="#projects">View My Work</a>
-              <a class="btn btn-secondary" href="#contact">Contact Me</a>
-            </div>
-
-            <div class="hero-metrics" aria-label="Highlights">
-            
-            </div>
+      <!-- ── COVER / HERO ── -->
+      <section class="hero" id="home">
+        <div class="container">
+          <div class="cover-meta">
+            <span class="left">Volume 01 · The Developer's Notebook</span>
+            <span>San Isidro, Jasaan · Misamis Oriental · PH</span>
+            <span>Issue: 2026</span>
           </div>
 
-          <div class="hero-card">
-            <div class="profile">
-              <img
-                class="profile-photo"
-                src="my%20profile.jpg"
-                width="700"
-                height="700"
-                alt="Portrait of Jay G. Yagma"
-                decoding="async"
-              />
-              <div class="profile-body">
-                <p class="profile-title">Build systems you can trust.</p>
-                <p class="profile-text">
-                  Methodical, risk-aware engineering focused on reliability, clarity, and
-                  continuous learning.
-                </p>
+          <div class="hero-grid">
+            <div class="hero-copy">
+              <p class="issue-tag" style="margin-bottom: 32px;">A Portfolio</p>
+              <h1 class="hero-title">
+                Engineering<br>built on <em>trust.</em>
+              </h1>
+              <p class="hero-subtitle">
+                I am Jay G. Yagma, a full-stack developer building reliable systems that scale safely in production. My craft sits at the intersection of Laravel, Node.js, Next.js, and modern AI tooling — quiet, methodical work designed to last beyond the first deployment.
+              </p>
+
+              <div class="hero-cta">
+                <a class="btn btn-primary" href="#projects">Read the Work</a>
+                <a class="btn btn-secondary" href="#contact">Start a Conversation</a>
+              </div>
+            </div>
+
+            <div class="hero-card">
+              <div class="profile">
+                <img
+                  class="profile-photo"
+                  src="my%20profile.jpg"
+                  width="700"
+                  height="900"
+                  alt="Portrait of Jay G. Yagma"
+                  decoding="async"
+                />
+                <div class="profile-body">
+                  <p class="profile-title">Build systems you can trust.</p>
+                  <p class="profile-text">
+                    Methodical, risk-aware engineering focused on reliability, clarity, and continuous learning.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
+      <!-- ── ABOUT ── -->
       <section class="section" id="about">
         <div class="container">
+          <div class="section-eyebrow">
+            <span>Chapter One</span>
+            <span class="section-number">N° 01</span>
+          </div>
+
           <div class="section-header">
-            <h2 class="section-title">About Me</h2>
+            <h2 class="section-title">An <em>introduction.</em></h2>
             <p class="section-subtitle">
-              I’m Jay, a backend‑first developer who loves turning complex problems into clean, production‑safe solutions. My journey in IT has been shaped by hands‑on experience with Node.js, PostgreSQL, and modern authentication systems, alongside a strong foundation in debugging, optimization, and collaborative coding. I’m deeply invested in mastering backend engineering best practices while exploring cybersecurity, networking, and data privacy. Beyond code, I believe in clear communication, structured teamwork, and building systems that last.
+              A backend-first developer who loves turning complex problems into clean, production-safe solutions. Trained in Laravel, Node.js, and PostgreSQL, with a growing fluency in AI-assisted development and modern frontends. Beyond the code, a belief in clear communication, structured teamwork, and systems built to last.
             </p>
           </div>
 
           <div class="about-grid">
             <div class="card reveal">
-              <h3 class="card-title">Backend-first development</h3>
+              <h3 class="card-title">Backend-first<br>development.</h3>
               <p class="card-text">
-                Hands-on experience with Node.js, PostgreSQL, and modern authentication
-                systems—focused on clean REST APIs and reliable data flows.
+                Hands-on experience with Laravel, Node.js, PostgreSQL, MySQL, and modern authentication systems. Focused on clean REST APIs, predictable data flows, and schemas built to survive production load.
               </p>
             </div>
 
             <div class="card reveal">
-              <h3 class="card-title">Debugging and optimization</h3>
+              <h3 class="card-title">Debugging and<br>optimization.</h3>
               <p class="card-text">
-                I enjoy tracking down tough bugs, improving performance, and building
-                solutions that stay safe under real production load.
+                I enjoy tracking down difficult bugs, improving performance, and building solutions that stay safe under real production load. AI tools are part of the workflow, but the thinking stays mine.
               </p>
             </div>
 
             <div class="card reveal">
-              <h3 class="card-title">Communication and teamwork</h3>
+              <h3 class="card-title">Communication<br>and teamwork.</h3>
               <p class="card-text">
-                I value clarity and accountability, and I’m committed to continuous
-                learning in software development, cybersecurity, and system administration.
+                Clarity, accountability, and ongoing learning across software development, cybersecurity, and system administration. Documentation, code reviews, and conversations all matter.
               </p>
             </div>
           </div>
         </div>
       </section>
 
+      <!-- ── PROJECTS ── -->
       <section class="section" id="projects">
         <div class="container">
+          <div class="section-eyebrow">
+            <span>Chapter Two · Selected Features</span>
+            <span class="section-number">N° 02</span>
+          </div>
+
           <div class="section-header">
-            <h2 class="section-title">Projects</h2>
+            <h2 class="section-title">The <em>work.</em></h2>
             <p class="section-subtitle">
-              Selected work with emphasis on backend architecture, schema design,
-              authentication, and payments.
+              A curated selection of projects spanning commerce, healthcare, sports analytics, warranty marketplaces, and operational tooling. Each one shipped, each one built to be maintained.
             </p>
           </div>
 
           <div class="projects-grid">
+
             <article class="project-card reveal">
-              <a class="project-media" href="#" aria-label="Open ShopHub project">
-                <img
-                  src="shophub.jpg"
-                  alt="Screenshot of ShopHub"
-                  loading="lazy"
-                  decoding="async"
-                  width="1200"
-                  height="750"
-                />
+              <a class="project-media" href="https://inspin.com" aria-label="Open INSPIN" target="_blank" rel="noopener noreferrer">
+                <img src="inspin.com.png" alt="Screenshot of INSPIN" loading="lazy" decoding="async" width="1200" height="900" />
               </a>
               <div class="project-body">
-                <h3 class="project-title">ShopHub</h3>
+                <h3 class="project-title">INSPIN</h3>
                 <p class="project-text">
-                  Commerce backend with Stripe checkout, robust order lifecycle, and
-                  role-based admin tools.
+                  A sports handicapper platform featuring a simulation model with +150 units over three years. Full-stack architecture delivering exclusive picks, live odds, packages, and consensus data with subscription management.
                 </p>
-                <ul class="project-tags" aria-label="Key highlights">
-                  <li>Stripe payments</li>
-                  <li>PostgreSQL schema design</li>
-                  <li>JWT auth</li>
+                <ul class="project-tags" aria-label="Stack">
+                  <li>Laravel 9</li>
+                  <li>MySQL</li>
+                  <li>PHP</li>
+                  <li>REST API</li>
+                  <li>Blade</li>
                 </ul>
                 <div class="project-links">
-                  <a class="link" href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
-                  <a class="link" href="#" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                  <a class="link" href="https://inspin.com" target="_blank" rel="noopener noreferrer">Visit Site</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <a class="project-media" href="https://bridgewarranty.com" aria-label="Open Bridge Warranty" target="_blank" rel="noopener noreferrer">
+                <img src="Bridgewarranty.png" alt="Screenshot of Bridge Warranty" loading="lazy" decoding="async" width="1200" height="900" />
+              </a>
+              <div class="project-body">
+                <h3 class="project-title">Bridge<br>Warranty.</h3>
+                <p class="project-text">
+                  A warranty coverage platform allowing users to browse, compare, and purchase protection plans from trusted providers. Features transparent pricing, dealer login portal, and real-time plan data integration.
+                </p>
+                <ul class="project-tags" aria-label="Stack">
+                  <li>Next.js</li>
+                  <li>React</li>
+                  <li>Node.js</li>
+                  <li>Supabase</li>
+                  <li>PostgreSQL</li>
+                  <li>Role-Based Auth</li>
+                </ul>
+                <div class="project-links">
+                  <a class="link" href="https://bridgewarranty.com" target="_blank" rel="noopener noreferrer">Visit Site</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <a class="project-media" href="https://github.com/jayyagma4/northlineautotransport" aria-label="Open Northline Auto Transport" target="_blank" rel="noopener noreferrer">
+                <img src="northline.png" alt="Screenshot of Northline Auto Transport" loading="lazy" decoding="async" width="1200" height="900" />
+              </a>
+              <div class="project-body">
+                <h3 class="project-title">Northline<br>Auto Transport.</h3>
+                <p class="project-text">
+                  A production website for an auto transport service. Responsive, conversion-focused, with clear calls to action, service detail sections, and a streamlined contact flow backed by PostgreSQL.
+                </p>
+                <ul class="project-tags" aria-label="Stack">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>PostgreSQL</li>
+                  <li>Responsive Design</li>
+                </ul>
+                <div class="project-links">
+                  <a class="link" href="https://github.com/jayyagma4/northlineautotransport" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <a class="project-media" href="#" aria-label="Open ShopHub project">
+                <img src="shophub.jpg" alt="Screenshot of ShopHub" loading="lazy" decoding="async" width="1200" height="900" />
+              </a>
+              <div class="project-body">
+                <h3 class="project-title">ShopHub.</h3>
+                <p class="project-text">
+                  A commerce backend with Stripe checkout, a robust order lifecycle, and role-based admin tools. PostgreSQL schema design for products, orders, and payments with transactional integrity throughout.
+                </p>
+                <ul class="project-tags" aria-label="Stack">
+                  <li>Node.js</li>
+                  <li>PostgreSQL</li>
+                  <li>Stripe</li>
+                  <li>JWT</li>
+                </ul>
+                <div class="project-links">
+                  <a class="link" href="#" target="_blank" rel="noopener noreferrer">View Project</a>
                 </div>
               </div>
             </article>
 
             <article class="project-card reveal">
               <a class="project-media" href="#" aria-label="Open Kalinaw project">
-                <img
-                  src="kalinaw.png"
-                  alt="Screenshot of Kalinaw"
-                  loading="lazy"
-                  decoding="async"
-                  width="1200"
-                  height="750"
-                />
+                <img src="kalinaw.png" alt="Screenshot of Kalinaw" loading="lazy" decoding="async" width="1200" height="900" />
               </a>
               <div class="project-body">
-                <h3 class="project-title">Kalinaw</h3>
+                <h3 class="project-title">Kalinaw.</h3>
                 <p class="project-text">
-                  Full-stack app with an API-first backend, careful data modeling, and
-                  secure user sessions.
+                  A full-stack application with an API-first backend, careful data modeling, and secure user sessions. Designed around clarity, observability, and clean session handling from the first commit.
                 </p>
-                <ul class="project-tags" aria-label="Key highlights">
-                  <li>REST API design</li>
-                  <li>OAuth flow</li>
+                <ul class="project-tags" aria-label="Stack">
+                  <li>REST API</li>
+                  <li>OAuth</li>
                   <li>Observability</li>
                 </ul>
                 <div class="project-links">
-                  <a class="link" href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
-                  <a class="link" href="#" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                  <a class="link" href="#" target="_blank" rel="noopener noreferrer">View Project</a>
                 </div>
               </div>
             </article>
 
             <article class="project-card reveal">
-              <a
-                class="project-media"
-                href="#"
-                aria-label="Open Mobile Inventory Tracker project"
-              >
-                <img
-                  src="mobile%20inventory%20tracker.jpg"
-                  alt="Screenshot of Mobile Inventory Tracker"
-                  loading="lazy"
-                  decoding="async"
-                  width="1200"
-                  height="750"
-                />
+              <a class="project-media" href="#" aria-label="Open Health Record Management System">
+                <img src="health%20record%20magement%20system.png" alt="Screenshot of Health Record Management System" loading="lazy" decoding="async" width="1200" height="900" />
               </a>
               <div class="project-body">
-                <h3 class="project-title">Mobile Inventory Tracker</h3>
+                <h3 class="project-title">Health Record<br>Management System.</h3>
                 <p class="project-text">
-                  Inventory and audit workflows optimized for latency and offline
-                  resilience.
+                  Secure data access patterns, audit trails, and privacy-aware design for sensitive medical records. Row-level authorization rules and audit logging following data protection best practices.
                 </p>
-                <ul class="project-tags" aria-label="Key highlights">
-                  <li>Schema migrations</li>
-                  <li>Transactional integrity</li>
-                  <li>API performance</li>
+                <ul class="project-tags" aria-label="Stack">
+                  <li>Authorization Rules</li>
+                  <li>Audit Logging</li>
+                  <li>Data Privacy</li>
                 </ul>
                 <div class="project-links">
-                  <a class="link" href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
-                  <a class="link" href="#" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                  <a class="link" href="#" target="_blank" rel="noopener noreferrer">View Project</a>
                 </div>
               </div>
             </article>
 
             <article class="project-card reveal">
-              <a
-                class="project-media"
-                href="#"
-                aria-label="Open Health Record Management System project"
-              >
-                <img
-                  src="health%20record%20magement%20system.png"
-                  alt="Screenshot of Health Record Management System"
-                  loading="lazy"
-                  decoding="async"
-                  width="1200"
-                  height="750"
-                />
+              <a class="project-media" href="#" aria-label="Open Mobile Inventory Tracker">
+                <img src="mobile%20inventory%20tracker.jpg" alt="Screenshot of Mobile Inventory Tracker" loading="lazy" decoding="async" width="1200" height="900" />
               </a>
               <div class="project-body">
-                <h3 class="project-title">Health Record Management System</h3>
+                <h3 class="project-title">Mobile<br>Inventory Tracker.</h3>
                 <p class="project-text">
-                  Secure data access patterns, audit trails, and privacy-aware design
-                  for sensitive records.
+                  Inventory and audit workflows optimized for latency and offline resilience. Schema migrations and transactional integrity under concurrent write conditions, designed for the field.
                 </p>
-                <ul class="project-tags" aria-label="Key highlights">
-                  <li>Authorization rules</li>
-                  <li>Audit logging</li>
-                  <li>Data privacy</li>
+                <ul class="project-tags" aria-label="Stack">
+                  <li>Schema Migrations</li>
+                  <li>Transactional Integrity</li>
+                  <li>API Performance</li>
                 </ul>
                 <div class="project-links">
-                  <a class="link" href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
-                  <a class="link" href="#" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                  <a class="link" href="#" target="_blank" rel="noopener noreferrer">View Project</a>
                 </div>
               </div>
             </article>
 
             <article class="project-card reveal">
-              <a
-                class="project-media"
-                href="#"
-                aria-label="Open Workout Trainer project"
-              >
-                <img
-                  src="workout%20trainer.jpg"
-                  alt="Screenshot of Workout Trainer"
-                  loading="lazy"
-                  decoding="async"
-                  width="1200"
-                  height="750"
-                />
+              <a class="project-media" href="#" aria-label="Open Workout Trainer">
+                <img src="workout%20trainer.jpg" alt="Screenshot of Workout Trainer" loading="lazy" decoding="async" width="1200" height="900" />
               </a>
               <div class="project-body">
-                <h3 class="project-title">Workout Trainer</h3>
+                <h3 class="project-title">Workout Trainer.</h3>
                 <p class="project-text">
-                  Backend services for training plans, user progress, and secure
-                  account management.
+                  Backend services for training plans, user progress tracking, and secure account management. Type-safe APIs and dockerized services built for predictable deployment and easy scaling.
                 </p>
-                <ul class="project-tags" aria-label="Key highlights">
+                <ul class="project-tags" aria-label="Stack">
                   <li>Type-safe APIs</li>
-                  <li>JWT auth</li>
-                  <li>Dockerized services</li>
+                  <li>JWT</li>
+                  <li>Docker</li>
                 </ul>
                 <div class="project-links">
-                  <a class="link" href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
-                  <a class="link" href="#" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                  <a class="link" href="#" target="_blank" rel="noopener noreferrer">View Project</a>
                 </div>
               </div>
             </article>
 
-            <article class="project-card reveal">
-              <a
-                class="project-media"
-                href="https://github.com/jayyagma4/northlineautotransport"
-                aria-label="Open Northline Auto Transport project"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src="northline.png"
-                  alt="Screenshot of Northline Auto Transport"
-                  loading="lazy"
-                  decoding="async"
-                  width="1200"
-                  height="750"
-                />
-              </a>
-              <div class="project-body">
-                <h3 class="project-title">Northline Auto Transport</h3>
-                <p class="project-text">
-                  Responsive website for an auto transport service with clear calls-to-action,
-                  service details, and a streamlined contact flow.
-                </p>
-                <ul class="project-tags" aria-label="Key highlights">
-                  <li>Responsive UI</li>
-                  <li>Clean layout</li>
-                  <li>Production-ready</li>
-                </ul>
-                <div class="project-links">
-                  <a class="link" href="https://github.com/jayyagma4/northlineautotransport" target="_blank" rel="noopener noreferrer">GitHub</a>
-                  <a class="link" href="#" target="_blank" rel="noopener noreferrer">Live Demo</a>
-                </div>
-              </div>
-            </article>
-
-            <article class="project-card reveal">
-              <a
-                class="project-media"
-                href="https://inspin.com"
-                aria-label="Open INSPIN project"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src="inspin.com.png"
-                  alt="Screenshot of INSPIN"
-                  loading="lazy"
-                  decoding="async"
-                  width="1200"
-                  height="750"
-                />
-              </a>
-              <div class="project-body">
-                <h3 class="project-title">INSPIN</h3>
-                <p class="project-text">
-                  Sports handicapper platform featuring a simulation model with +150 units over 3 years.
-                  Built with a full-stack architecture delivering exclusive picks, live odds, packages,
-                  and consensus data with secure user authentication and subscription management.
-                </p>
-                <ul class="project-tags" aria-label="Key highlights">
-                  <li>Laravel 9</li>
-                  <li>MySQL</li>
-                  <li>PHP</li>
-                  <li>REST API</li>
-                  <li>Blade templating</li>
-                </ul>
-                <div class="project-links">
-                  <a class="link" href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
-                  <a class="link" href="https://inspin.com" target="_blank" rel="noopener noreferrer">Live Demo</a>
-                </div>
-              </div>
-            </article>
-
-            <article class="project-card reveal">
-              <a
-                class="project-media"
-                href="https://bridgewarranty.com"
-                aria-label="Open Bridge Warranty project"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src="Bridgewarranty.png"
-                  alt="Screenshot of Bridge Warranty"
-                  loading="lazy"
-                  decoding="async"
-                  width="1200"
-                  height="750"
-                />
-              </a>
-              <div class="project-body">
-                <h3 class="project-title">Bridge Warranty</h3>
-                <p class="project-text">
-                  Warranty coverage platform that lets users browse, compare, and purchase protection
-                  plans from trusted providers. Features transparent pricing, plan comparison tools,
-                  dealer login portal, and REST API integration for real-time plan data.
-                </p>
-                <ul class="project-tags" aria-label="Key highlights">
-                  <li>React / Next.js</li>
-                  <li>Node.js backend</li>
-                  <li>REST API design</li>
-                  <li>PostgreSQL</li>
-                  <li>Role-based auth</li>
-                </ul>
-                <div class="project-links">
-                  <a class="link" href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
-                  <a class="link" href="https://bridgewarranty.com" target="_blank" rel="noopener noreferrer">Live Demo</a>
-                </div>
-              </div>
-            </article>
           </div>
         </div>
       </section>
 
+      <!-- ── EDUCATION ── -->
       <section class="section" id="experience">
         <div class="container">
+          <div class="section-eyebrow">
+            <span>Chapter Three</span>
+            <span class="section-number">N° 03</span>
+          </div>
+
           <div class="section-header">
-            <h2 class="section-title">Education</h2>
+            <h2 class="section-title">A <em>foundation.</em></h2>
             <p class="section-subtitle">
-              BSIT – Information Technology
+              Formal coursework at MOIST and a continuous discipline of self-study. The training is structured, the curiosity is constant.
             </p>
           </div>
 
           <ol class="timeline">
             <li class="timeline-item reveal">
-              <h3 class="timeline-title">BSIT – Information Technology</h3>
-              <p class="timeline-meta">
-                Misamis Oriental Institute of Science and Technology · 2022 — Present
-              </p>
+              <p class="timeline-meta">2022 — Present</p>
+              <h3 class="timeline-title">BSIT — Information Technology</h3>
               <p class="timeline-text">
-                Focused on backend-first systems using Node.js, PostgreSQL, REST APIs, and modern authentication.
-                Strong foundation in debugging, optimization, and production-safe engineering practices.
+                Misamis Oriental Institute of Science and Technology. Focused on backend-first systems using Node.js, PostgreSQL, REST APIs, and modern authentication. Strong foundation in debugging, optimization, and production-safe engineering practices.
               </p>
             </li>
             <li class="timeline-item reveal">
+              <p class="timeline-meta">Ongoing</p>
               <h3 class="timeline-title">Self-Learning &amp; Continuous Development</h3>
-              <p class="timeline-meta">Online IT courses, webinars, and tutorials · Ongoing</p>
               <p class="timeline-text">
-                Expanding knowledge in cybersecurity, data privacy, and computer networking.
-                Actively engaged in workshops and collaborative coding projects to sharpen full-stack skills.
+                Online IT courses, webinars, and tutorials. Expanding into cybersecurity, data privacy, computer networking, and AI-assisted development workflows. Active in workshops and collaborative coding projects.
               </p>
             </li>
           </ol>
 
           <div class="card reveal">
-            <h3 class="card-title">Interests</h3>
+            <h3 class="card-title" style="font-size: 22px; margin-bottom: 18px;">Interests &amp; Curiosities</h3>
             <div class="chip-row" aria-label="Interests">
-              <span class="chip">Software and web application development</span>
-              <span class="chip">Cybersecurity and data privacy</span>
-              <span class="chip">Computer networking and system administration</span>
-              <span class="chip">Self-learning</span>
+              <span class="chip">Software &amp; Web Development</span>
+              <span class="chip">Cybersecurity &amp; Data Privacy</span>
+              <span class="chip">Computer Networking</span>
+              <span class="chip">System Administration</span>
+              <span class="chip">AI-Assisted Workflows</span>
+              <span class="chip">Self-Learning</span>
             </div>
           </div>
         </div>
       </section>
 
+      <!-- ── SKILLS ── -->
       <section class="section" id="skills">
         <div class="container">
+          <div class="section-eyebrow">
+            <span>Chapter Four · The Toolkit</span>
+            <span class="section-number">N° 04</span>
+          </div>
+
           <div class="section-header">
-            <h2 class="section-title">Skills</h2>
+            <h2 class="section-title">The <em>craft.</em></h2>
             <p class="section-subtitle">
-              Backend development, authentication, payments, and practical troubleshooting.
+              Backend development, authentication, payments, AI tooling, and the practical troubleshooting that holds it all together.
             </p>
           </div>
 
           <div class="skills-grid">
             <div class="card reveal">
-              <h3 class="card-title">Backend</h3>
+              <h3 class="card-title" style="font-size: 22px;">Backend</h3>
               <div class="skill" role="progressbar" aria-label="Node.js" aria-valuemin="0" aria-valuemax="100" aria-valuenow="92">
-                <div class="skill-head">
-                  <span>Node.js</span>
-                  <span class="skill-value">92%</span>
-                </div>
+                <div class="skill-head"><span>Node.js</span><span class="skill-value">92</span></div>
                 <div class="skill-track"><div class="skill-fill" style="width: 92%"></div></div>
               </div>
-              <div class="skill" role="progressbar" aria-label="REST API design" aria-valuemin="0" aria-valuemax="100" aria-valuenow="86">
-                <div class="skill-head">
-                  <span>REST API design</span>
-                  <span class="skill-value">86%</span>
-                </div>
-                <div class="skill-track"><div class="skill-fill" style="width: 86%"></div></div>
+              <div class="skill" role="progressbar" aria-label="Laravel" aria-valuemin="0" aria-valuemax="100" aria-valuenow="88">
+                <div class="skill-head"><span>Laravel</span><span class="skill-value">88</span></div>
+                <div class="skill-track"><div class="skill-fill" style="width: 88%"></div></div>
               </div>
               <div class="skill" role="progressbar" aria-label="PostgreSQL" aria-valuemin="0" aria-valuemax="100" aria-valuenow="90">
-                <div class="skill-head">
-                  <span>PostgreSQL</span>
-                  <span class="skill-value">90%</span>
-                </div>
+                <div class="skill-head"><span>PostgreSQL</span><span class="skill-value">90</span></div>
                 <div class="skill-track"><div class="skill-fill" style="width: 90%"></div></div>
               </div>
-              <div class="skill" role="progressbar" aria-label="OAuth and JWT" aria-valuemin="0" aria-valuemax="100" aria-valuenow="84">
-                <div class="skill-head">
-                  <span>OAuth / JWT</span>
-                  <span class="skill-value">84%</span>
-                </div>
+              <div class="skill" role="progressbar" aria-label="MySQL" aria-valuemin="0" aria-valuemax="100" aria-valuenow="85">
+                <div class="skill-head"><span>MySQL</span><span class="skill-value">85</span></div>
+                <div class="skill-track"><div class="skill-fill" style="width: 85%"></div></div>
+              </div>
+              <div class="skill" role="progressbar" aria-label="REST API" aria-valuemin="0" aria-valuemax="100" aria-valuenow="86">
+                <div class="skill-head"><span>REST API Design</span><span class="skill-value">86</span></div>
+                <div class="skill-track"><div class="skill-fill" style="width: 86%"></div></div>
+              </div>
+            </div>
+
+            <div class="card reveal">
+              <h3 class="card-title" style="font-size: 22px;">Frontend &amp; Cloud</h3>
+              <div class="skill" role="progressbar" aria-label="Next.js" aria-valuemin="0" aria-valuemax="100" aria-valuenow="80">
+                <div class="skill-head"><span>Next.js / React</span><span class="skill-value">80</span></div>
+                <div class="skill-track"><div class="skill-fill" style="width: 80%"></div></div>
+              </div>
+              <div class="skill" role="progressbar" aria-label="Supabase" aria-valuemin="0" aria-valuemax="100" aria-valuenow="78">
+                <div class="skill-head"><span>Supabase</span><span class="skill-value">78</span></div>
+                <div class="skill-track"><div class="skill-fill" style="width: 78%"></div></div>
+              </div>
+              <div class="skill" role="progressbar" aria-label="Vercel" aria-valuemin="0" aria-valuemax="100" aria-valuenow="82">
+                <div class="skill-head"><span>Vercel</span><span class="skill-value">82</span></div>
+                <div class="skill-track"><div class="skill-fill" style="width: 82%"></div></div>
+              </div>
+              <div class="skill" role="progressbar" aria-label="Stripe" aria-valuemin="0" aria-valuemax="100" aria-valuenow="80">
+                <div class="skill-head"><span>Stripe Integration</span><span class="skill-value">80</span></div>
+                <div class="skill-track"><div class="skill-fill" style="width: 80%"></div></div>
+              </div>
+              <div class="skill" role="progressbar" aria-label="OAuth / JWT" aria-valuemin="0" aria-valuemax="100" aria-valuenow="84">
+                <div class="skill-head"><span>OAuth / JWT</span><span class="skill-value">84</span></div>
                 <div class="skill-track"><div class="skill-fill" style="width: 84%"></div></div>
               </div>
             </div>
 
             <div class="card reveal">
-              <h3 class="card-title">Delivery and support</h3>
-              <div class="skill" role="progressbar" aria-label="Stripe integration" aria-valuemin="0" aria-valuemax="100" aria-valuenow="80">
-                <div class="skill-head">
-                  <span>Stripe integration</span>
-                  <span class="skill-value">80%</span>
-                </div>
-                <div class="skill-track"><div class="skill-fill" style="width: 80%"></div></div>
-              </div>
-              <div class="skill" role="progressbar" aria-label="Debugging and optimization" aria-valuemin="0" aria-valuemax="100" aria-valuenow="85">
-                <div class="skill-head">
-                  <span>Debugging and optimization</span>
-                  <span class="skill-value">85%</span>
-                </div>
-                <div class="skill-track"><div class="skill-fill" style="width: 85%"></div></div>
-              </div>
-              <div class="skill" role="progressbar" aria-label="IT support and troubleshooting" aria-valuemin="0" aria-valuemax="100" aria-valuenow="78">
-                <div class="skill-head">
-                  <span>IT support</span>
-                  <span class="skill-value">78%</span>
-                </div>
-                <div class="skill-track"><div class="skill-fill" style="width: 78%"></div></div>
-              </div>
-              <div class="skill" role="progressbar" aria-label="Communication and teamwork" aria-valuemin="0" aria-valuemax="100" aria-valuenow="90">
-                <div class="skill-head">
-                  <span>Communication</span>
-                  <span class="skill-value">90%</span>
-                </div>
-                <div class="skill-track"><div class="skill-fill" style="width: 90%"></div></div>
-              </div>
-            </div>
-
-            <div class="card reveal">
-              <h3 class="card-title">Toolbox</h3>
+              <h3 class="card-title" style="font-size: 22px;">The Toolbox</h3>
+              <p class="card-text" style="margin-bottom: 20px;">A complete inventory of the languages, frameworks, and tools used in regular practice.</p>
               <div class="chip-row" aria-label="Skill badges">
                 <span class="chip">Node.js</span>
+                <span class="chip">Laravel 9</span>
+                <span class="chip">PHP</span>
                 <span class="chip">PostgreSQL</span>
-                <span class="chip">REST API design</span>
+                <span class="chip">MySQL</span>
+                <span class="chip">REST API</span>
                 <span class="chip">OAuth</span>
                 <span class="chip">JWT</span>
                 <span class="chip">Stripe</span>
+                <span class="chip">Next.js</span>
+                <span class="chip">React</span>
+                <span class="chip">Supabase</span>
+                <span class="chip">Vercel</span>
+                <span class="chip">OpenAI API</span>
+                <span class="chip">Cursor</span>
+                <span class="chip">Claude</span>
+                <span class="chip">Docker</span>
+                <span class="chip">Git</span>
                 <span class="chip">Debugging</span>
-                <span class="chip">Optimization</span>
-                <span class="chip">IT support</span>
-                <span class="chip">Microsoft Word</span>
-                <span class="chip">PowerPoint</span>
-                <span class="chip">Teamwork</span>
-                <span class="chip">Time management</span>
-                <span class="chip">Adaptability</span>
               </div>
             </div>
           </div>
         </div>
       </section>
 
+      <!-- ── PHILOSOPHY ── -->
       <section class="section" id="philosophy">
         <div class="container">
+          <div class="section-eyebrow">
+            <span>Chapter Five · An Editorial</span>
+            <span class="section-number">N° 05</span>
+          </div>
+
           <div class="section-header">
-            <h2 class="section-title">Testimonials / Philosophy</h2>
+            <h2 class="section-title">A working <em>philosophy.</em></h2>
             <p class="section-subtitle">
-              How I lead, review, and build trust in production.
+              How I lead, review, and build the kind of trust production systems require.
             </p>
           </div>
 
           <div class="quote-grid">
             <figure class="quote-card reveal">
               <blockquote>
-                “Clear expectations and crisp feedback. Reviews focus on risk, edge
-                cases, and long-term maintainability.”
+                Clear expectations and crisp feedback. Reviews focus on risk, edge cases, and long-term maintainability — not the surface.
               </blockquote>
-              <figcaption>Teammate</figcaption>
+              <figcaption>On Collaboration</figcaption>
             </figure>
 
             <figure class="quote-card reveal">
               <blockquote>
-                “Production reliability is a feature: good defaults, safe migrations,
-                and observability baked in.”
+                Production reliability is a feature: good defaults, safe migrations, and observability baked in from the first commit.
               </blockquote>
-              <figcaption>My engineering philosophy</figcaption>
+              <figcaption>On Engineering</figcaption>
             </figure>
 
             <figure class="quote-card reveal">
               <blockquote>
-                “Accountability without blame. Decisions are documented, tradeoffs are
-                explicit, and delivery stays predictable.”
+                Accountability without blame. Decisions are documented, tradeoffs are explicit, and delivery stays predictable.
               </blockquote>
-              <figcaption>Leadership style</figcaption>
+              <figcaption>On Leadership</figcaption>
             </figure>
           </div>
         </div>
       </section>
 
+      <!-- ── CONTACT ── -->
       <section class="section" id="contact">
         <div class="container">
+          <div class="section-eyebrow">
+            <span>Closing Letter</span>
+            <span class="section-number">N° 06</span>
+          </div>
+
           <div class="section-header">
-            <h2 class="section-title">Contact</h2>
+            <h2 class="section-title">Let's <em>talk.</em></h2>
             <p class="section-subtitle">
-              Want to collaborate or discuss a role? Send a message and I’ll reply
-              quickly.
+              Want to collaborate, discuss a role, or build something together? Send a message and I will reply quickly.
             </p>
           </div>
 
           <div class="contact-grid">
-            <div class="contact-card card reveal">
-              <h3 class="card-title">Find me online</h3>
+            <div class="contact-card reveal">
+              <h3 class="card-title">Find me online.</h3>
               <p class="card-text">Reach me by email or phone, or connect on GitHub and LinkedIn.</p>
 
               <div class="social-links" aria-label="Social links">
-                <a
-                  class="social-link"
-                  href="https://github.com/jayyagma4/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a class="social-link" href="https://github.com/jayyagma4/" target="_blank" rel="noopener noreferrer">
                   <span class="social-icon" aria-hidden="true">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path
-                        d="M9 19c-4 1.5-4-2.5-5-3m10 6v-3.87c0-1.1.1-1.53-.53-2.22 2.24-.25 4.59-1.1 4.59-5A3.9 3.9 0 0 0 17 8.1 3.6 3.6 0 0 0 16.9 5s-.84-.26-2.9 1.02a10 10 0 0 0-5.2 0C6.74 4.74 5.9 5 5.9 5A3.6 3.6 0 0 0 5.8 8.1 3.9 3.9 0 0 0 4.75 10.9c0 3.9 2.35 4.75 4.6 5-.5.44-.55.98-.53 1.74V22"
-                        stroke="currentColor"
-                        stroke-width="1.6"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M9 19c-4 1.5-4-2.5-5-3m10 6v-3.87c0-1.1.1-1.53-.53-2.22 2.24-.25 4.59-1.1 4.59-5A3.9 3.9 0 0 0 17 8.1 3.6 3.6 0 0 0 16.9 5s-.84-.26-2.9 1.02a10 10 0 0 0-5.2 0C6.74 4.74 5.9 5 5.9 5A3.6 3.6 0 0 0 5.8 8.1 3.9 3.9 0 0 0 4.75 10.9c0 3.9 2.35 4.75 4.6 5-.5.44-.55.98-.53 1.74V22" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
                   </span>
-                  GitHub
+                  github.com/jayyagma4
                 </a>
 
-                <a
-                  class="social-link"
-                  href="https://www.linkedin.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a class="social-link" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
                   <span class="social-icon" aria-hidden="true">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path
-                        d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4V14a6 6 0 0 1 6-6Z"
-                        stroke="currentColor"
-                        stroke-width="1.6"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                      <path
-                        d="M2 9h4v12H2V9Z"
-                        stroke="currentColor"
-                        stroke-width="1.6"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                      <path
-                        d="M4 4a2 2 0 1 0 0.001 4A2 2 0 0 0 4 4Z"
-                        stroke="currentColor"
-                        stroke-width="1.6"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4V14a6 6 0 0 1 6-6Z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M2 9h4v12H2V9Z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M4 4a2 2 0 1 0 0.001 4A2 2 0 0 0 4 4Z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
                   </span>
                   LinkedIn
@@ -717,21 +591,9 @@
 
                 <a class="social-link" href="mailto:jayyagma4@gmail.com">
                   <span class="social-icon" aria-hidden="true">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path
-                        d="M4 4h16v16H4V4Z"
-                        stroke="currentColor"
-                        stroke-width="1.6"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                      <path
-                        d="M4 7l8 6 8-6"
-                        stroke="currentColor"
-                        stroke-width="1.6"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4 4h16v16H4V4Z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M4 7l8 6 8-6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
                   </span>
                   jayyagma4@gmail.com
@@ -739,58 +601,36 @@
 
                 <a class="social-link" href="tel:+639510296717">
                   <span class="social-icon" aria-hidden="true">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path
-                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.09 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.86.3 1.7.54 2.5a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.58-1.11a2 2 0 0 1 2.11-.45c.8.24 1.64.42 2.5.54A2 2 0 0 1 22 16.92Z"
-                        stroke="currentColor"
-                        stroke-width="1.6"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.09 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.86.3 1.7.54 2.5a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.58-1.11a2 2 0 0 1 2.11-.45c.8.24 1.64.42 2.5.54A2 2 0 0 1 22 16.92Z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
                   </span>
-                  0951-029-6717
+                  0951 029 6717
                 </a>
               </div>
 
-              <button class="btn btn-secondary copy-email" type="button" data-copy-email>
-                Copy email
-              </button>
+              <button class="copy-email" type="button" data-copy-email>Copy email address</button>
             </div>
 
-            <form class="contact-form card reveal" data-contact-form>
-              <h3 class="card-title">Send a message</h3>
+            <form class="contact-form reveal" data-contact-form>
+              <h3 class="card-title">Send a letter.</h3>
 
               <div class="form-row">
-                <label class="label" for="name">Name</label>
+                <label class="label" for="name">Your name</label>
                 <input class="input" id="name" name="name" autocomplete="name" required />
               </div>
 
               <div class="form-row">
-                <label class="label" for="email">Email</label>
-                <input
-                  class="input"
-                  id="email"
-                  name="email"
-                  type="email"
-                  autocomplete="email"
-                  required
-                />
+                <label class="label" for="email">Email address</label>
+                <input class="input" id="email" name="email" type="email" autocomplete="email" required />
               </div>
 
               <div class="form-row">
-                <label class="label" for="message">Message</label>
-                <textarea
-                  class="textarea"
-                  id="message"
-                  name="message"
-                  rows="6"
-                  autocomplete="off"
-                  required
-                ></textarea>
+                <label class="label" for="message">Your message</label>
+                <textarea class="textarea" id="message" name="message" rows="5" autocomplete="off" required></textarea>
               </div>
 
-              <button class="btn btn-primary" type="submit">Send</button>
+              <button class="btn btn-primary" type="submit">Send Message</button>
               <p class="form-status" role="status" aria-live="polite" data-form-status></p>
             </form>
           </div>
@@ -800,8 +640,8 @@
 
     <footer class="site-footer">
       <div class="container footer-inner">
-        <p class="footer-text">© <span data-year></span> Jay G. Yagma. Built with performance and accessibility in mind.</p>
-        <a class="link" href="#home">Back to top</a>
+        <p class="footer-text">© <span data-year></span> Jay G. Yagma · Built with care in Misamis Oriental</p>
+        <a class="link" href="#home">Return to top</a>
       </div>
     </footer>
   </body>
